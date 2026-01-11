@@ -195,9 +195,9 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
+    "https://i.ibb.co/Swh3ydfj/8ca8f2223569.jpg",
+    "https://i.ibb.co/Swh3ydfj/8ca8f2223569.jpg",
+    "https://i.ibb.co/Swh3ydfj/8ca8f2223569.jpg",
     # Add more image URLs as needed
 ]
 
