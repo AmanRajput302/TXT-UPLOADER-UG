@@ -2,24 +2,24 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "20937420"))
-API_HASH = os.environ.get("API_HASH", "09d7f6744feb17759304df65666961da")
+API_ID = int(os.environ.get("API_ID", "23480065"))
+API_HASH = os.environ.get("API_HASH", "32edb7d7fc1523b436109bff8ea061fc")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-CREDIT = os.environ.get("CREDIT", "⌯ BIHAR | ×͜× |")
+CREDIT = os.environ.get("CREDIT", "|Є𝐫𝚛𝘰ʳ✘ᎪຮᏂυ࿐|")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dev-Thanos")  # Add your own atlas db
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://MADXRAJVIP:<MADXRAJVIP>@cluster0.dsdloav.mongodb.net/?appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "7881009185"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "7881009185").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8489271683"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8489271683").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+zzgp8DUgaic3MzRl"
+PREMIUM_CHANNEL = "https://t.me/+7rp0z6m-qr5iNWZl"
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.ibb.co/Swh3ydfj/8ca8f2223569.jpg").split())) # Image Link For Default Thumbnail 
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
